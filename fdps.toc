@@ -1,0 +1,6 @@
+## Interface: 60000
+## Title: fdps
+## Notes: Attempts to work some magic with feral dps
+## Author: Qvarnis
+## Version: r1
+fdps.lua
