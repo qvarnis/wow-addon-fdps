@@ -6,20 +6,20 @@ local macroName = 'FDPSMACRO'
 local function setMacro(arg)
     macroIndex = GetMacroIndexByName(macroName)
     EditMacro(macroIndex, nil, nil, '#showtooltip\n' .. arg.cmd)
-    self.SetAttribute('type', 'macro')
-    self.SetAttribute('macro', macroName)
+    --self.SetAttribute('type', 'macro')
+    --self.SetAttribute('macro', macroName)
 end
 
 local function castShred()
-    setMacro{cmd = 'FDPSSHRED'}
+    setMacro{cmd = '/Cast Shred'}
 end
 
 local function castRake()
-    setMacro{cmd = 'FDPSRAKE'}
+    setMacro{cmd = '/Cast Rake'}
 end
 
 local function castSavageRoar()
-    setMacro{cmd = 'FDPSSAVAGEROAR'}
+    setMacro{cmd = '/Cast Savage Roar'}
 end
 
 local function generateComboPoint(arg)
