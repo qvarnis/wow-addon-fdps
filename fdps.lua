@@ -74,8 +74,6 @@ local button = CreateFrame('Button', name, nil, 'SecureActionButtonTemplate,Secu
 button:SetAttribute('type', 'macro')
 button:SetAttribute('macro', macroName)
 button:SetScript("PostClick", mainRotation)
-button:SetAttribute('macro',macroName)
-button:SetScript("PostClick",UpdateIcon)
 
 -- local frame = CreateFrame("Frame", "TestFrame", UIParent)
 local frame = CreateFrame('Button', "TestFrame", UIParent,'SecureActionButtonTemplate,SecureHandlerBaseTemplate')
